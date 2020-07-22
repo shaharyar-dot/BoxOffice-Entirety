@@ -1,0 +1,134 @@
+a{
+	text-decoration:none;
+	color:#000;}
+a:hover{color:#FFF;}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg-image {
+  background-image:url(pexels-photo-257736.jpeg);
+  filter: blur(5px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+#BUTTON_TOP{
+	background-color:#999;
+color:#000;
+border-bottom-color:#666666;
+border:none;
+border-color:#FFFFFF;
+padding:18px;
+text-decoration:none;
+
+}
+#BUTTON_TOP:hover{
+color:white;
+background-color:#000;
+}
+#BUTTON_LIST{
+background-color:#999;
+color:#000;
+border-bottom-color:#666666;
+padding:16px;
+width:100%;
+border:1px solid;
+border-color:#FFFFFF;
+text-align:left;
+}
+#BUTTON_LIST:hover{
+color:white;
+background-color:#000;
+}
+#LIST{
+font-family:Arial, Helvetica, sans-serif;
+font-size:19px;
+color:#000033;
+list-style:none;
+
+}
+.dropbtn {
+  background-color:#999;
+  color: #000;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #FFF;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #000;color:#FFF;}
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+marquee{text-decoration:blink;
+font-weight:bold}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  
+}
